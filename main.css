@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.header-class{
+  width:100%;
+  color:white;
+  background: blue;
+  font-size: 20px;
+  padding: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.returnBtn{
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input-class{
+  margin-top: 20px;
+  height: 30px;
+  width: 300px;
+}
+
+.parentDiv2{
+  display: flex;
+  margin: 25px;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.TopDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topDivAppear{
+  display: none;
+}
+
+.Hello-class{
+  font-size: 50px;
+  color:blue;
+  margin-top: 20px;
+}
+
+.buttonInput{
+  padding: 5px;
+}
+
+.display{
+  background-color: powderblue;
+}
+
+.showInput{
+  background-color: gray;
+}
+
+.createClass{
+  padding: 30px;
+  border: 1px solid red;
+  color:white;
+  background-color: brown;
+  font-size: 60px;
+  margin-top: 30px;
+}
